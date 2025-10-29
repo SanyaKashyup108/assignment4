@@ -1,12 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import Home from '../../Screens/Home'
+import { SafeAreaView } from 'react-native-safe-area-context'
 
 const index = () => {
   return (
-    <View style={styles.mainContainer}>
+    <SafeAreaView style={styles.mainContainer}>
       <Home/>
-    </View>
+    </SafeAreaView>
   )
 }
 

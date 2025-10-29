@@ -181,7 +181,7 @@ date: {
     color: "#222",
   },
   Subtitle: {
-    fontSize: 16,
+    fontSize: 14,
     color: "#444",
     marginVertical: 6,
   },
@@ -196,11 +196,12 @@ date: {
   comProfile: {
     flexDirection: "row",
     marginTop: 0,
-    gap:"20"
+    gap:"-7"
   },
   avatar: {
     width: 36,
     height: 36,
+    
     borderRadius: 18,
     borderWidth: 2,
     borderColor: "#fff",
@@ -282,6 +283,8 @@ date: {
     flexDirection: "row",
     alignItems: "center",
     marginTop: 12,
+     marginRight: 30,
+    
   },
   trainerAvatar: {
     width: 35,
@@ -299,7 +302,7 @@ date: {
     marginTop: 10,
     gap: 20,
     backgroundColor:"#fdb7e6ff",
-    padding:30,
+    padding:20,
     borderRadius:23
   },
 });
